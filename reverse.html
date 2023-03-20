@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <table>
+            <tr>
+                <td>name</td>
+                <td>phone</td>
+            </tr>
+            <tr id="id1">
+                <td>ram</td>
+                <td>12345</td>
+            </tr>
+            <tr id="id2">
+                <td>shyam</td>
+                <td>54321</td>
+            </tr>
+        </table>
+    </div>
+    <button onclick="btn () ">reverse</button>
+
+    <script>
+        
+        let a = document.querySelector("#id1").innerHTML
+        let b = document.querySelector("#id2").innerHTML
+        let c = a;
+
+        function btn() {
+            document.querySelector("#id1").innerHTML = b;
+            document.querySelector("#id2").innerHTML = c;
+        }
+        //reverse karna top ya bottom/left/-right
+
+
+    </script>
+
+</body>
+
+</html>
